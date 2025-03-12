@@ -1,0 +1,26 @@
+public class Calculator {
+    public static int sum(int a, int b) {
+        int sum = a + b;
+        return sum;
+    }
+
+    public static int subtract(int a, int b) {
+        int sub = a - b;
+        return sub;
+    }
+
+    public static int divide(int a, int b) {
+        int div = a / b;
+        return div;
+    }
+}
+public class JavaPr {    public static void main(String args[]) {
+        int sum = Calculator.sum(2, 3);
+        int sub = Calculator.subtract(5, 3);
+        int div = Calculator.divide(10, 2);
+
+        System.out.println("Sum of 2 numbers = " + sum);
+        System.out.println("Subtraction of 2 numbers = " + sub);
+        System.out.println("Division of 2 numbers = " + div);
+    }
+}

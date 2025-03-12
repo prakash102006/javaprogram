@@ -1,9 +1,0 @@
-public class JavaFile{
-    public static void main(string args[]){
-      int a=6;
-      int b=7;
-      sum = a + b;
-      return sum;
-      System.out.println("the sum of the 2 numbers is",sum) ; 
-    }
-}
