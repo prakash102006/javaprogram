@@ -9,8 +9,7 @@ public class Calculator {
         return sub;
     }
 
-    public static int divide(int a, int b) {
-        int div = a / b;
+    public static int divide(int a, int b) {        int div = a / b;
         return div;
     }
 }
