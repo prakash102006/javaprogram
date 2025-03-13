@@ -3,7 +3,9 @@ public class positive {
         int number = 19;
         if (number>0) { 
             System.out.println("The given number is positive");
-        } else  {
+        } else if (number==0){
+            System.out.println("0 is  given nuteral number");
+        }else  {
             System.out.println("The given number is negative");
         }
     }
