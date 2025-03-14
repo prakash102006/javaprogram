@@ -8,7 +8,7 @@ class Child extends Parent {
         System.out.println("home");
     }
 }
-public class methodover{
+public class methodover {
     public static void main (String args []){
         Child obj = new Child();
         obj.display();
