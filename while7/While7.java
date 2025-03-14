@@ -6,7 +6,7 @@ public class While7{
         while(i<10){
             i=i+1;
             value=7*i;
-            System.out.println(value);
+            System.out.println("7*"+i+"="+value);
         }
     }
 }
