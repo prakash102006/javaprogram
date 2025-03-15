@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class sumofinp {
+public class sumofdigit {
     public static void main(String[] args)
     {
         int i=0;
